@@ -1,9 +1,9 @@
 import FrequentlyAsked from "./component/FrequentlyAsked";
 import Nav from "./component/Nav";
 import Reasons from "./component/Reasons";
-import Subscription from "./component/Subscription";
 import Trends from "./component/Trends";
-import Footer from "./component/Footer"
+import Footer from "./component/Footer";
+import Subscription from "./component/Singerup"
 //import './App.css'
 
 

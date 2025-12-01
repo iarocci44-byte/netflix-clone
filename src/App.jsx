@@ -11,13 +11,12 @@ const App = () => {
   return(
     <>
       <div className="bg-black min-h-screen px-12 text-white">
-        {/* <Nav />
-        
+        <Nav />
+        <Trends />
         <Reasons />
         <FrequentlyAsked />
         <Subscription />
-        <Footer /> */}
-        <Trends />
+        <Footer />
       </div>
     </>
   )

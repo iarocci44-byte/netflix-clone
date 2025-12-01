@@ -1,0 +1,13 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* Or the simplified v4 syntax: */
+/* @import "tailwindcss"; */
+
+
+@layer base {
+  body {
+    @apply bg-black; /* Use your desired color here */
+  }
+}

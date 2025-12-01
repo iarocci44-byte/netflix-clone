@@ -1,0 +1,28 @@
+menu-container {
+  display: flex;
+  overflow-x: auto; /* Adds a horizontal scrollbar if content overflows */
+  white-space: nowrap; /* Prevents items from wrapping to the next line */
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.menu-item {
+  /* Use padding for item spacing, avoid margin on the item wrapper itself */
+  padding: 10px 20px;
+  margin: 0 5px; /* Margin is okay on the inner item element */
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Ensures items don't shrink */
+  flex-shrink: 0;
+}
+
+/* Optional: Customize the scrollbar appearance for webkit browsers */
+.menu-container::-webkit-scrollbar {
+  height: 8px;
+}
+
+.menu-container::-webkit-scrollbar-thumb {
+  background-color: gray;
+  border-radius: 10px;
+}
